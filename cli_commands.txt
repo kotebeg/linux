@@ -1,0 +1,3 @@
+# install vm-tools for copy paste
+sudo apt get upsate
+sudo apt-get install open-vm-tools-desktop
