@@ -39,3 +39,7 @@ other levels
 18. Can you access the network in run level 2?
 19. What is the default run level for a typical desktop Linux installation?
 20. Can you use a GUI in run level 3?
+
+-Check the status of the system (processes, services): `top`
+-View system logs: `journalctl`
+-Check network connectivity:: `ping 8.8.8.8`
