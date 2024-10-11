@@ -43,3 +43,21 @@ other levels
 -Check the status of the system (processes, services): `top`
 -View system logs: `journalctl`
 -Check network connectivity:: `ping 8.8.8.8`
+
+
+
+## 183. Computer Boot Process
+**Summary:**
+
+The computer boot process involves several key steps:
+
+1. **Power On:** The computer is powered on by plugging it into an electrical outlet.
+2. **BIOS Initialization:** The CPU starts and loads instructions from the Basic Input/Output System (BIOS), a firmware stored on a Read-Only Memory (ROM) chip.
+3. **CMOS Settings:** The BIOS reads settings from the Complementary Metal-Oxide Semiconductor (CMOS) chip, which stores system time, date, and hardware settings.
+4. **POST:** The Power-On Self-Test (POST) runs, checking all connected devices for proper functioning.
+5. **Boot Sector:** The BIOS loads the Master Boot Record (MBR) from the disk, which contains information about the operating system.
+6. **Operating System Loading:** The operating system is loaded into the Random Access Memory (RAM).
+7. **OS Initialization:** The operating system takes control and starts its own processes and applications.
+
+This entire process of starting up the computer is called **bootstrapping**.
+
