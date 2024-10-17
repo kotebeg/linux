@@ -2,6 +2,10 @@
 sudo apt-get update
 sudo apt-get install open-vm-tools-desktop
 
+# install the python3-venv package. 
+sudo apt update
+sudo apt install python3-venv
+
 # create virtual env on specific python versionb
 python3.12 -m venv myenv
 source myenv/bin/activate
