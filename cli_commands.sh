@@ -10,6 +10,14 @@ sudo apt install python3-venv
 python3.12 -m venv myenv
 source myenv/bin/activate
 
+# Generate the requirements.txt file: Use the following command to create a
+pip freeze > requirements.txt
+# Check the generated requirements.txt: Open the requirements.txt file to verify that it contains the list of packages and versions:
+cat requirements.txt
+# Installing Packages from requirements.txt:
+pip install -r requirements.txt
+
+
 # install visual studio code   "code_1.94.2-1728494015_amd64.deb" is file name, it can be other, 
 sudo dpkg -i code_1.94.2-1728494015_amd64.deb
 
