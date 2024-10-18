@@ -34,3 +34,30 @@ xrandr
 #    720x480       60.00    59.94  
 #    640x480       60.00    59.94  
 # DP-1 disconnected (normal left inverted right x axis y axis)
+
+# NVIDIA Hardware with hwinfo:
+sudo apt-get install hwinfo   # For Ubuntu/Debian-based systems
+
+# To get information about graphics cards, including your NVIDIA GPU, run the following command:
+sudo hwinfo --gfxcard  
+
+# To get a short summary of the detected GPU instead of a long output, you can add the --short option:
+sudo hwinfo --gfxcard --short
+
+
+# Alternative: Check NVIDIA GPU using nvidia-smi (if NVIDIA drivers are installed)
+nvidia-smi
+# +-----------------------------------------------------------------------------+
+# | NVIDIA-SMI 460.39       Driver Version: 460.39       CUDA Version: 11.2     |
+# |-------------------------------+----------------------+----------------------+
+# | GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC  |
+# | Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M.  |
+# |                               |                      |               MIG M. |
+# |===============================+======================+======================|
+# |   0  GeForce GTX 1060    Off  | 00000000:05:00.0  On |                  N/A  |
+# |  0%   36C    P8    11W / 120W |    430MiB /  6078MiB |      0%      Default  |
+# |                               |                      |                  N/A  |
+# +-------------------------------+----------------------+----------------------+
+
+
+
