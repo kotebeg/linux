@@ -35,6 +35,10 @@ xrandr
 #    640x480       60.00    59.94  
 # DP-1 disconnected (normal left inverted right x axis y axis)
 
+# Use xrandr to Detect Displays (for X11)
+xrandr --listmonitors
+
+
 # NVIDIA Hardware with hwinfo:
 sudo apt-get install hwinfo   # For Ubuntu/Debian-based systems
 
