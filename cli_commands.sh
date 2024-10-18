@@ -12,3 +12,7 @@ source myenv/bin/activate
 
 # install visual studio code   "code_1.94.2-1728494015_amd64.deb" is file name, it can be other, 
 sudo dpkg -i code_1.94.2-1728494015_amd64.deb
+
+
+# print display protocol
+echo $XDG_SESSION_TYPE
