@@ -14,6 +14,12 @@ htop
 
 # -------------------install terminator on fedora
 sudo dnf update -y
-# Install htop:
+# Install terminator:
 sudo dnf install terminator -y
-# Launch htop:
+
+# -------------------install python3.12 on fedora
+sudo dnf update -y
+# Install Python 3.12:
+sudo dnf install python3.12
+# check version
+python3.12 --version
