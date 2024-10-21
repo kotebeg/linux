@@ -23,3 +23,6 @@ sudo dnf update -y
 sudo dnf install python3.12
 # check version
 python3.12 --version
+
+
+# -------------------install ssh server on fedora
