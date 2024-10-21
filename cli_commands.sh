@@ -6,6 +6,10 @@ sudo apt-get install open-vm-tools-desktop
 sudo apt update
 sudo apt install python3-venv
 
+# Install Terminator:
+sudo apt update
+sudo apt install terminator
+
 # create virtual env on specific python versionb
 python3.12 -m venv myenv
 source myenv/bin/activate
