@@ -80,7 +80,8 @@ nvidia-smi
 
 
 
-#  check linux operation system type on root user
+#  check linux operation system type on root user, ubuntu, centos, fedora, etc
 cat /etc/issue
+# Ubuntu 24.04.1 LTS \n \l
 
 
