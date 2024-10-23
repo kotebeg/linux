@@ -80,3 +80,7 @@ nvidia-smi
 
 
 
+#  check linux operation system type on root user
+cat /etc/issue
+
+
