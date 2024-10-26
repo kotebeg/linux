@@ -10,6 +10,11 @@ sudo apt install python3-venv
 sudo apt update
 sudo apt install terminator
 
+
+# Install tree:
+sudo apt update
+sudo apt install tree
+
 # create virtual env on specific python versionb
 python3.12 -m venv myenv
 source myenv/bin/activate
