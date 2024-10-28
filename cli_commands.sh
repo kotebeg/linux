@@ -10,6 +10,11 @@ sudo apt install python3-venv
 sudo apt update
 sudo apt install terminator
 
+# Install htop
+sudo apt install htop
+# or
+sudo apt-get install htop
+
 
 # Install tree:
 sudo apt update
