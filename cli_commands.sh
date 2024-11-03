@@ -32,6 +32,9 @@ cat requirements.txt
 pip install -r requirements.txt
 
 
+
+
+
 # install visual studio code   "code_1.94.2-1728494015_amd64.deb" is file name, it can be other, 
 sudo dpkg -i code_1.94.2-1728494015_amd64.deb
 sudo dpkg -i code_1.95.1-1730355339_amd64.deb
@@ -39,6 +42,10 @@ sudo dpkg -i code_1.95.1-1730355339_amd64.deb
 # install pyharm community with snapcraft
 # find pyvharm in snap https://snapcraft.io/
 #  copy the commandline and run on cli for examle: sudo snap install pycharm-community --classic
+
+# isntall curl [On Debian, Ubuntu and Mint]
+sudo apt install curl     
+curl --version
 
 # print display protocol X11 or wayland
 echo $XDG_SESSION_TYPE
