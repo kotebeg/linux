@@ -74,6 +74,8 @@ sudo hwinfo --gfxcard
 # To get a short summary of the detected GPU instead of a long output, you can add the --short option:
 sudo hwinfo --gfxcard --short
 
+# check linux version
+cat /etc/os-release 
 
 # Alternative: Check NVIDIA GPU using nvidia-smi (if NVIDIA drivers are installed)
 nvidia-smi
