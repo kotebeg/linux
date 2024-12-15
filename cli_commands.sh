@@ -15,6 +15,10 @@ sudo apt install htop
 # or
 sudo apt-get install htop
 
+# isntall java jdk 21
+sudo apt update
+sudo apt install -y openjdk-21-jdk
+java --version
 
 # Install tree:
 sudo apt update
