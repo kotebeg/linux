@@ -1,3 +1,9 @@
+# install Z-sh
+sudo apt update
+sudo apt install zsh -y
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+
 # install vm-tools for copy paste
 sudo apt-get update
 sudo apt-get install open-vm-tools-desktop
