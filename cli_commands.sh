@@ -3,6 +3,10 @@ sudo apt update
 sudo apt install zsh -y
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+# install pip3 on linux
+sudo apt update
+sudo apt install python3-pip
+
 
 # install vm-tools for copy paste
 sudo apt-get update
